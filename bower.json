@@ -1,0 +1,13 @@
+{
+  "name": "angular-boilerplate",
+  "description": "Marks AngularJS Application",
+  "version": "0.0.0",
+  "homepage": "https://github.com/markledger/angular-boilerplate.git",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-mocks": "1.4.x",
+    "jquery": "~2.1.1",
+    // "bootstrap": "~3.1.1"
+  }
+}
