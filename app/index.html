@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Marks Angular Boilerplate</title>
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="css/app.css">
-  <script src="bower_components/angular/angular.js"></script>
+  <script src="../bower_components/angular/angular.js"></script>
   <script src="js/controllers.js"></script>
 </head>
-<body ng-controller="PhoneListCtrl">
+<body ng-controller="marksController">
 
   <div class="container-fluid">
     <div class="row">
@@ -22,9 +22,9 @@
         <!--Body content-->
 
         <ul class="phones">
-          <li ng-repeat="phone in phones | filter:query">
-            <span>{{phone.name}}</span>
-            <p>{{phone.snippet}}</p>
+          <li ng-repeat="thing in stuff | filter:query">
+            <span>{{thing.name}}</span>
+            <p>{{thing.age}}</p>
           </li>
         </ul>
 
